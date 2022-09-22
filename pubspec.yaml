@@ -1,0 +1,85 @@
+name: dinelah_vendor
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # icons
+  cupertino_icons: ^1.0.5
+  flutter_phosphor_icons: ^0.0.1+6
+  font_awesome_flutter:
+
+  # core
+  connectivity: ^3.0.6
+  # permission_handler: ^8.3.0
+
+  # ui
+  responsive_framework: ^0.2.0
+  form_field_validator: ^1.1.0
+  loading_overlay: ^0.3.0
+  syncfusion_flutter_charts: ^20.2.36
+  expandable: ^5.0.1
+
+  shared_preferences: ^2.0.15
+  # state management
+  get: ^4.6.5
+
+  # files, images & player
+  cached_network_image: ^3.2.1
+  image_picker: ^0.8.5+3
+  #  flutter_svg: ^1.0.3
+  #  lottie: ^1.2.1
+  #  youtube_player_flutter: ^8.0.0
+
+  # code generator
+  freezed_annotation: ^2.0.3
+
+  # data
+  dio: ^4.0.6
+  get_storage: ^2.0.3
+
+  # others
+  webview_flutter: ^3.0.4
+  flutter_svg: ^1.1.1+1
+  badges: ^2.0.3
+  url_launcher: ^6.1.4
+  flutter_easyloading: ^3.0.5
+  fluttertoast:
+  device_info: ^2.0.3
+  firebase_core: ^1.19.1
+  firebase_messaging: ^11.4.4
+  flutter_local_notifications: ^9.6.1
+  intl: ^0.17.0
+  file_picker: ^4.6.1
+  flutter_rating_bar: ^4.0.1
+
+
+  firebase_auth: ^3.4.1
+  cloud_firestore: ^3.2.1
+  firebase_storage: ^10.3.1
+  overlay_support: ^2.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  freezed: ^2.0.3+1
+  json_serializable:
+  change_app_package_name: ^1.1.0
+  build_runner:
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/app/
+    - assets/images/
+    - assets/icons/
